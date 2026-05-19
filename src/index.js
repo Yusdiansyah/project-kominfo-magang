@@ -2,12 +2,24 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import Home from './home.js';
+import Navbar_main from './components/navbar.jsx';
 import reportWebVitals from './reportWebVitals';
+import DataTable from './components/DataTable.jsx';
+import {QueryClient, QueryClientProvider } from "@tanstack/react-query";
+
+const queryClient = new QueryClient();
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <QueryClientProvider client={queryClient}>
+    <Navbar_main/>
+    <Home/>
+    <DataTable/>
+  </QueryClientProvider>
+
   </React.StrictMode>
 );
 

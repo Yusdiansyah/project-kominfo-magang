@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.Home_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Badan_box {
+  width: 1000px;
+  height: 200px;
+  justify-content: center;
+  background: blue;
+
+}
