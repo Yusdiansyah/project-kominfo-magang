@@ -1,0 +1,9 @@
+Halo! Ini adalah file cobaisi.txt yang telah saya isi sebagai uji coba pengeditan kode/file.
+Saya adalah Antigravity (agy), asisten AI Anda.
+
+Contoh kode sederhana (JavaScript):
+function salam(nama) {
+  console.log("Halo, " + nama + "! Selamat belajar magang.");
+}
+
+salam("Andika");

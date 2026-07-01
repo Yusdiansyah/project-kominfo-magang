@@ -7,7 +7,7 @@ import {
   flexRender,
 } from '@tanstack/react-table';
 
-function UnemploymentTable() {
+function StatsTable() {
   const { data, isLoading, error } = useQuery({
     queryKey: ['unemployment'],
     queryFn: async () => {
@@ -63,4 +63,4 @@ function UnemploymentTable() {
   );
 }
 
-export default UnemploymentTable;
+export default StatsTable;

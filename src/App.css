@@ -6,6 +6,23 @@
   height: 40vmin;
   pointer-events: none;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #f5f7fa;
+  overflow-y: auto;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
